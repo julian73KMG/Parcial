@@ -36,10 +36,10 @@ def hayVocales(v):
 
 #-- Problema 3 --
 def difElementos(v,w):
-    esta = "Se encuentra: "
+    esta = ()
     for i in range(len(v)):
         if v[i] != w[i]:
-            esta += v[i]
+            esta += v[i],
     else:
         noesta = v[i]
     return esta
